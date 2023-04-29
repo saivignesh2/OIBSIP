@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: l;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+header {
+	background-color: #ffffff;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 999;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+.logo h1 {
+	color: #000000;
+	font-size: 28px;
+	margin: 20px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	margin-right: 20px;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: #000000;
+	text-decoration: none;
+	font-size: 16px;
+	padding: 10px;
+}
+
+.hero {
+	background-image: url('images/hero.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	display: flex;
+	margin-top: 100px;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	margin: auto;
+	
+}
+.hero-text{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered1{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+.home-btn:hover{
+	background-color: grey;
+	color: green;
+}
+.shop-btn:hover{
+	background: gray;
+}
+.about-btn:hover{
+	background: gray;
+}
+.contact-btn:hover{
+	background: gray;
+}
+
+.watch-img {
+	display: block;
+	size: 100%;
+}
+.brands{
+	margin-top: 20%;
+}
+.shopnow-btn:hover{
+	border:5px solid white;
+	padding: 20px 50px;
+	font-size: 20px;
+    border-radius: 8px;	
+}
+
+	
